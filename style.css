@@ -1,0 +1,303 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+  }
+  
+  .nav_sektion {
+    width: 1440px;
+    height: 104px;
+  
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    border-radius: 15px;
+    
+  }
+  
+  .nav_left {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .title_text {
+    font-size: 24px;
+    color: black;
+  }
+  
+  .nav_centr {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .btn {
+    width: 200px;
+    height: 50px;
+    border: 1px solid;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .title_text-2 {
+    font-size: 24px;
+    color: white;
+  }
+  
+  .hiro_sektion {
+    width: 1440px;
+    height: 750px;
+    background-image: url("./Rectangle 15.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 170px;
+
+  }
+  
+  .text {
+    font-size: 128px;
+    color: rgb(12, 6, 6);
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  .text2 {
+    font-size: 128px;
+    color: rgb(12, 6, 6);
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  .sarlavha {
+    width: 1440px;
+    height: 90px;
+    font-size: 38px;
+    color: rgb(12, 6, 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .contimg {
+    width: 1440px;
+    height: 650px;
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  .img1 {
+    width: 480px;
+    height: 650px;
+    text-align: center;
+    padding: 150px;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .img2 {
+    width: 480px;
+    height: 650px;
+    text-align: center;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .img3 {
+    width: 480px;
+    height: 650px;
+    text-align: center;
+    padding: 150px;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bizhaqimizda {
+    width: 1440px;
+    height: 600px;
+    display: flex;
+  
+
+  }
+  
+  .bizhaqimizda_img {
+    width: 50%;
+    height: 600px;
+  }
+  .bizhaqimizda_img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .bizhaqimizda_text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .bizhaqimizda_text h3 {
+    text-align: start;
+    font-size: 50px;
+  }
+  .bizhaqimizda_text p {
+    font-size: 30px;
+    text-align: start;
+    margin-right: 200px;
+  }
+  
+  .Bizningqulayliglarimiz {
+    width: 1440px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+  .Bizningqulayliglarimiz .qulayliklar_img {
+    width: 50%;
+    height: 50%;
+  
+  }
+  .Bizningqulayliglarimiz .qulayliklar_img {
+    width: 50%;
+   
+  }
+  
+
+#main_info{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main_info_heading{
+    font-size: 48px;
+    color: #352611;
+    text-align: center;
+    width: 420px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box_texts{
+    background-color: #352611;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 60px;
+    width: 720px;
+    height: 860px;
+    color: #fff;
+}
+.box_texts2{
+    background-color: #352611;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 360px;
+    width: 720px;
+    height: 860px;
+    color: #fff;
+}
+.box_text{
+    font-size: 40px;
+    font-weight: normal;
+}
+.box_text2{
+    font-size: 40px;
+    font-weight: normal;
+    text-align: left;
+    width: 374px;
+}
+.box_texts_text{
+    font-size: 16px;
+    letter-spacing: 3px;
+    width: 456px;
+    text-align: center;
+}
+.box_texts_text2{
+    font-size: 16px;
+    letter-spacing: 3px;
+    width: 456px;
+    text-align: center;
+}
+.bottom{
+   
+    background: url(./Rectangle\ 29.png) no-repeat  ;
+    /* background-repeat: no-repeat; */
+    padding: 55px;
+    background-size: cover;
+
+}
+.id{
+    width: 287px;
+    height: 51px;
+    border-radius: 4px;
+    padding: 16px 24px 16px 24px;
+    font-size: 18px;
+}
+
+.bottom_id{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 15px;
+}
+footer{
+    width: 95%;
+    padding: 35px;
+  
+}
+.fotter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer__rite{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
